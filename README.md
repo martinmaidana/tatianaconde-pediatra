@@ -1,2 +1,2 @@
-# maquetando con bootstrap
-desafio de añadir bootstrap
+# uso de cannabis medicinal 
+pagina dedicada al uso de cannabis medicinal en pediatria.
