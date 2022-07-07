@@ -1,0 +1,129 @@
+body {font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;}
+
+/* inicio header */
+
+.navbar-nav{
+    display:flex!important;
+    justify-content: flex-end;
+}
+.nav-link:hover{
+    background-color: #FFADAD;
+}
+/* fin header */
+/* inicio main */
+.fondos{
+    padding: 50px;
+    height: 400px;
+    display: grid;
+    align-content: center;
+}
+.fondos:hover {
+    /* transition: 0.6s; */
+    /* transition-timing-function: ease-in;  */
+    box-shadow: none;
+    animation: fondos 0.5s linear 0s forwards;
+}
+@keyframes fondos{
+    0% {  transform:none;}
+    100%{
+    transform:scale(1.1);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.fondos a{
+    text-decoration: none;
+    font-size:36px;
+    color:black;
+    padding-bottom: 25px;
+}
+.fondos p{
+    font-size:12px;
+}
+
+.col-sm-5 col-sm-7{
+    text-align: center;
+    align-items: center;
+}
+.fondo1{
+    background-color:#CAFFBF;    
+}
+.fondo2{
+    background-color:#FFD6A5;
+}
+.fondo3{
+    background-color:#FDFFB6;
+}
+.fondo4{
+    background-color:#FFADAD;
+}
+
+.fondo6{
+    background-color:#A0C4FF;
+}
+/* fin de main */
+/* inicio footer */
+.redes{
+    color: black;
+    display:flex;
+    flex-direction: column;
+    padding-bottom:29px;
+}
+.redes a{
+    font-size: 18px;
+    text-decoration: none;
+}
+.redes a:hover{
+   background-color: #CAFFBF;
+}
+/* fin de footer */
+/* inicio Conoceme */
+.conoceme{
+    background-color: #CAFFBF;
+}
+/* fin Conoceme */
+/* inicion Legislacion */
+.legislacion{
+    background-color: #FFD6A5;
+}
+.imagenleg{
+    width: 100%;
+}
+
+/* fin Legislacion */
+/* inicio Talleres y cursos */
+.talleres{
+    background-color: #A0C4FF;
+}
+/* fin de Talleres y cursos */
+/* inicio Canabis*/
+.canabis{
+    background-color: #FFD6A5;
+}
+/* .card-img-top{
+    object-fit: cover;  
+    height: 50%;
+} */
+.card-body{
+    align-items: center;
+}
+.card:hover {
+    box-shadow: none;
+    animation: card 0.5s linear 0s forwards;
+}
+@keyframes card{
+    0% {  transform:none;}
+    100%{
+    transform:scale(1);
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    }
+}
+
+/* fin de Canabis */
+
+@media (min-widht:575px){
+    .fondo4{
+        display:none;
+    }
+}
